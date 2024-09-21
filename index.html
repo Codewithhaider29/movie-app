@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Find out if you should watch a movie using our app, which searches for movies using the TMDb API." />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Should I Watch It?</h1>
+      <form id="form" aria-label="Search for movies">
+        <input 
+          type="text" 
+          placeholder="Enter movie title" 
+          id="search" 
+          class="search" 
+          aria-label="Movie title search"
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <main id="main">
+      <!-- Movie results will be dynamically inserted here -->
+    </main>
+    <footer class="footer">
+      <p>
+        This project uses the TMDb API but is not endorsed or certified by TMDb.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
